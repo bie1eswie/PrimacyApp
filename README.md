@@ -9,3 +9,5 @@ We went with a modified HashTable implementation for the data stracture that sup
 #Design Pattern 
 Implemented a Composite Design pattern, which was influenced by the nature of the data and how its presented.
 
+Included the test folder as part of the solution which can be changed.
+
