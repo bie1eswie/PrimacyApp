@@ -3,9 +3,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PrimacyApp.BusinessLogic.Implementation;
 using PrimacyApp.BusinessLogic.Interface;
-using PrimacyApp.Helpers;
 using PrimacyApp.Models.Data;
 using PrimacyApp.Models.Data_Structure;
+using PrimacyApp.Utilities.Helpers;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace PrimacyApp

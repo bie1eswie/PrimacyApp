@@ -23,14 +23,14 @@ namespace PrimacyApp.Test
         [Fact]
         public void FolderManager_ShouldLoadDataIntoDataStracture()
         {
-            folderManager.LoadFolder(@"C:\Users\banzi\source\repos\PrimacyApp\PrimacyApp.Test\MockData\photos\");
+            folderManager.LoadFolder(@"..\..\..\..\..\PrimacyApp\PrimacyApp.Test\MockData\photos\");
             var result = folderManager._hashTable;
             Assert.NotEmpty(result.BucketArray);
         }
         [Fact]
         public void FolderManager_ShouldGetDuplicates()
         {
-            folderManager.LoadFolder(@"C:\Users\banzi\source\repos\PrimacyApp\PrimacyApp.Test\MockData\photos\");
+            folderManager.LoadFolder(@"..\..\..\..\..\PrimacyApp\PrimacyApp.Test\MockData\photos\");
             var result = folderManager.GetDuplicateFiles();
             Assert.NotEmpty(result);
         }

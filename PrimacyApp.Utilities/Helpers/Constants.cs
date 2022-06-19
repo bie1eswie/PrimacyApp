@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrimacyApp.Helpers
+namespace PrimacyApp.Utilities.Helpers
 {
     public static class Constants
     {
-        public static readonly string DEFAULT_DIRECTORY = @"C:\Users\banzi\source\repos\PrimacyApp\PrimacyApp\photos\";
+        public static readonly string DEFAULT_DIRECTORY = @"..\..\..\..\..\PrimacyApp\PrimacyApp\photos\";
     }
 }
